@@ -300,6 +300,15 @@ header .icon-header .icon-project span{
     padding-bottom: 43px;
 }
 
+.my-team .card-custom{
+    -webkit-transition: 0.4s ease;
+    transition: 0.3s ease;
+}
+.my-team .card-custom:hover{
+    -webkit-transform: scale(1.03);
+    transform: scale (1.03);
+}
+
 .my-team .card-custom h4{
     color: #000;
     /* text-align: center; */
