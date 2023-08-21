@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+    color: #2D2E37;
+    font-family: 'Roboto';
+}
+
+.bg-nav{
+    background-color: #2D2E37;
+}
+
+.bg-nav .menu-custom{
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-right: 30px;
+    transition: all 0.5s;
+}
+
+.bg-nav .menu-custom:hover{
+    font-weight: 500;
+}
+
+header{
+    background-image: url('../img/bg-header.png');
+    height: 715px;
+    background-size: cover;
+    background-position: center;
+}
+
+header .header-position{
+    padding-top: 107px;
+}
+
+header .header-right h1{
+    color: #FFF;
+    font-family: 'Ubuntu';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header .header-right p{
+    color: #868686;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+header .header-right .position-btn-header{
+    margin-top: 40px;
+}
+
+header .hire-me-header{
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #00BC9A;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 0.3s;
+}
+
+header .hire-me-header:hover{
+    background-color: #00FACD;
+}
+
+header .hire-me-header:active{
+    background-color: #00E3BA;
+}
+
+header .view-project-header{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #32343E;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 0.3s;
+}
+
+header .view-project-header:hover{
+    background-color: #494C5B;
+}
+
+header .view-project-header:active{
+    background-color: #3D3F4B;
+}
+
+header .icon-header{
+    margin-top: 40px;
+}
+
+header .icon-header .icon-client span{
+    color: #868686;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header .icon-header .icon-project span{
+    color: #868686;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-me{
+    margin-top: 100px;
+}
+
+.about-me h1{
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.about-me p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-me p span{
+    font-weight: 600;
+}
+
+.project{
+    margin-top: 120px;
+    background: linear-gradient(180deg, rgba(0, 188, 154, 0.00) 0%, rgba(0, 188, 154, 0.20) 100%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.project h1{
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.project p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.project .img-project img{
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+.project .img-project:hover img{
+    -webkit-transform: scale(1.08);
+    transform: scale (1.08);
+}
+
+.project a{
+    color: inherit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    border: 2px solid #2D2E37;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+    transition: all ease-in-out 0.5s;
+}
+
+.project a:hover{
+    color: #FFF;
+    background-color: #2D2E37;
+}
+
+.project .btn-see-more{
+    margin-top: 40px;
+}
+
+.blog{
+    margin-top: 120px;
+}
+
+.blog .font-title{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.blog .font-description{
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blog .btn-see-more{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 160px;
+}
+
+.blog .btn-see-more a{
+    color: #00BC9A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    border: 2px solid #00BC9A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+    transition: all ease-in-out 0.5s;
+}
+
+.blog .btn-see-more a:hover{
+    background-color: #00BC9A;
+    color: #FFF;
+}
+
+.blog .card-custom{
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.blog .card-custom img{
+    border-radius: 13px 13px 0 0;
+}
+
+.blog .card-custom .title-card{
+    padding-left: 14px;
+    margin-top:14px;
+}
+
+.blog .card-custom h6{
+    color: #00BC9A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blog .card-custom h3{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.blog .card-custom p{
+    color: #828282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+.my-team h1{
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.my-team p{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.my-team .card-custom{
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 35px;
+    padding-bottom: 43px;
+}
+
+.my-team .card-custom h4{
+    color: #000;
+    /* text-align: center; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.my-team .card-custom h5{
+    color: #000;
+    /* text-align: center; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.my-team .card-custom h6{
+    color: #000;
+    /* text-align: center; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 19px;
+}
+
+.interested .bg-color{
+    background-color: #2D2E37;
+    margin-top: 160px;
+    padding-top: 39px;
+    padding-bottom: 25px;
+}
+
+.interested h2{
+    color: #FFF;
+}
+
+.interested .view-project{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #32343E;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 0.5s;
+}
+
+.interested .view-project:hover{
+    background-color: #494C5B;
+}
+
+.interested .view-project:active{
+    background-color: #3D3F4B;
+}
+
+.interested .contact-me{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    background-color:#00BC9A;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all 0.5s;
+}
+
+.interested .contact-me:hover{
+    background-color: #00FACD;
+}
+
+.interested .contact-me:active{
+    background-color: #00E3BA;
+}
+
+footer hr{
+    stroke-width: 2px;
+    stroke: rgba(45, 46, 55, 0.32);
+    margin-top: 160px;
+}
+
+footer p{
+    color: #868686;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

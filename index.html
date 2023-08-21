@@ -5,18 +5,250 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile landing</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
+    <nav class="navbar navbar-expand-lg bg-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link menu-custom" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-custom" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-custom" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-custom" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-custom" href="#">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <button type="button" class="btn btn-link">Link</button>
+    <!-- batas navbar dan header -->
+
+    <header>
+      <div class="container">
+        <div class="row header-position">
+          <!-- bagian kiri header-->
+          <div class="offset-lg-1 col-lg-5 d-lg-block d-none header-left">
+            <img src="assets/img/my-photo.png" alt=""/>
+          </div>
+
+          <!-- bagian kanan header-->
+          <div class="col header-right">
+            <h1>
+              I'm Frontend <br />
+              Web Developer
+            </h1>
+            <p>
+              Based in Makassar, South Sulawesi, <br />
+              Indonesia
+            </p>
+
+            <div class="position-btn-header">
+              <a href="" class="hire-me-header">Hire Me</a>
+              <a href="" class="view-project-header mx-3">View Project</a>
+            </div>
+
+            <div class="icon-header d-flex">
+              <div class="icon-client mx-3">
+                <img src="assets/img/Client.png" alt=""><span class="mx-2">10+ Client</span>
+              </div>
+              <div class="icon-project">
+                <img src="assets/img/Project.png" alt=""><span class="mx-2">10+ Client</span></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- batas header dan about me -->
+
+    <section id="about-me" class="about-me">
+      <div class="container">
+        <div class="row">
+          <!-- bagian kiri about me -->
+          <div class="col-12 col-sm-12 col-md-6 mb-5">
+            <h1>About Me</h1>
+            <p>I'm a <span>frontend web dev</span>. I am very enthusiastic in studying the development of technology, especially in this field of programming. And some of the projects that I develop always follow the trend of technological developments today.</p>
+            <p>I’ve also learned a few skill, including :</p>
+            <div class="">
+              <div class=""><img src="assets/img/check.png" alt=""><span class="mx-2">UI/UX</span></img></div>
+              <div class=""><img src="assets/img/check.png" alt=""><span class="mx-2">UI/UX</span></img></div>
+              <div class=""><img src="assets/img/check.png" alt=""><span class="mx-2">UI/UX</span></img></div>
+            </div>
+          </div>
+
+          <!-- bagian kanan about-->
+          <div class="col"><img src="assets/img/about.png" alt="" class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- batas about me dan project -->
+
+    <section id="project" class="project">
+      <div class="container">
+        <h1>Project</h1>
+        <p>"Thank you for your trust"</p>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-lg-4 img-project mb-3"><img src="assets/img/Android_UI.jpg" alt="" class="img-fluid"></div>
+          <div class="col-12 col-sm-6 col-lg-4 img-project mb-3"><img src="assets/img/Android_UI.jpg" alt="" class="img-fluid"></div>
+          <div class="col-12 col-sm-6 col-lg-4 img-project mb-3"><img src="assets/img/Android_UI.jpg" alt="" class="img-fluid"></div>
+        </div>
+        <div class="btn-see-more">
+          <a href="">See More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- batas project dan blog -->
+
+    <section id="blog" class="blog">
+      <div class="container">
+        <h1 class="font-title">Blog</h1>
+        <p class="font-description">"Keep up to date on the tech world"</p>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-lg-4 mb-3">
+            <div class="card card-custom">
+              <img src="assets/img/blog-1.png" alt="" class="img-fluid">
+              <div class="title-card">
+                <h6>Belajar Pemrograman</h6>
+                <h3>Belajar HTML Untuk Pemula</h3>
+                <p>16 Agustus 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-3">
+            <div class="card card-custom">
+              <img src="assets/img/blog-1.png" alt="" class="img-fluid">
+              <div class="title-card">
+                <h6>Belajar Pemrograman</h6>
+                <h3>Belajar HTML Untuk Pemula</h3>
+                <p>16 Agustus 2023</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 mb-3">
+            <div class="card card-custom">
+              <img src="assets/img/blog-1.png" alt="" class="img-fluid">
+              <div class="title-card">
+                <h6>Belajar Pemrograman</h6>
+                <h3>Belajar HTML Untuk Pemula</h3>
+                <p>16 Agustus 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="btn-see-more">
+            <a href="">See More</a>
+          </div>
+      </div>
+    </section>
+
+    <!-- batas blog dan my team -->
+
+    <section id="my-team" class="my-team">
+      <div class="container text-center">
+        <h1>My Team</h1>
+        <p>“Don't worry about the expertise of my team”</p>
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+            <div class="card card-custom">
+              <div class="text-center">
+                <img src="assets/img/team-1.png" alt="" width="79px">
+              </div>
+              <h4>Aiony Haust</h4>
+              <h5>UI/UX Designer</h5>
+              <h6>Kazakhstan</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+            <div class="card card-custom">
+              <div class="text-center">
+                <img src="assets/img/team-2.png" alt="" width="79px">
+              </div>
+              <h4>Ben Parker</h4>
+              <h5>Product Manager</h5>
+              <h6>Australia</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+            <div class="card card-custom">
+              <div class="text-center">
+                <img src="assets/img/team-3.png" alt="" width="79px">
+              </div>
+              <h4>Austin Distel</h4>
+              <h5>Backend Developer</h5>
+              <h6>Virginia</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+            <div class="card card-custom">
+              <div class="text-center">
+                <img src="assets/img/team-4.png" alt="" width="79px">
+              </div>
+              <h4>Yogendra Singh</h4>
+              <h5>Backend Developer</h5>
+              <h6>Bangladesh</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- batas my team dan interested -->
+
+    <section id="interested" class="interested">
+      <div class="container bg-color">
+        <div class="row">
+          <div class="col-12 col-lg-6 align-self-center text-center text-lg-start mb-3">
+            <h2 class="mx-3">
+              Interested collaboration with me ?
+            </h2>
+          </div>
+          <div class="col-12 col-lg-6 align-self-center text-center text-lg-end mb-3">
+            <a href="" class="view-project mx-2 mx-lg-4">View project</a>
+            <a href="" class="contact-me mx-2 mx-lg-4">Contact Me </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- batas interested dan footer -->
+
+    <footer>
+      <hr>
+      <p>2023 Copyright © Richard Edric Jovan Wijaya</p>
+    </footer>
 
     <script src="assets/js/bootstrap.bundle.js"></script>
   </body>
